@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js">
+ <style>
+  body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+ </style>
+</head>
+<body>
+    <div class="contain">hello</div>
+    <form  class="form" autocomplete="off" id="w3-exerciseform" action="exercise.asp?filename=exercise_html_attributes1" method="post" target="_blank">
+        <h2>Test Yourself With Exercises</h2>
+        <div class="exercisewindow">
+        <h2>Exercise:</h2>
+        <p>Add a "tooltip" to the paragraph below with the text "About W3Schools".</p>
+        <div class="exerciseprecontainer">
+        &lt;p <input name="ex1" maxlength="5" style="width: 54px;">="About W3Schools"&gt;W3Schools is a web developer's site.&lt;/p&gt;
+        </div>
+        <br>
+        <button type="submit" class="w3-btn w3-margin-bottom">Submit Answer »</button>
+        <p><a target="_blank" href="exercise.asp?filename=exercise_html_attributes1">Start the Exercise</a></p>
+        </div>
+        </form>
+        <button onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+        
+        
+</body>
+</html>
